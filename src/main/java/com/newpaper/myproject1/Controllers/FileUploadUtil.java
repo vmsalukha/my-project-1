@@ -8,7 +8,7 @@ import java.nio.file.Files;
 import java.nio.file.Path;
 import java.nio.file.Paths;
 import java.nio.file.StandardCopyOption;
-
+//comment test1
 public class FileUploadUtil {
     public static void saveFile(Path uploadPath, String fileName, MultipartFile multipartFile) throws IOException {
         Path uploadPathTarget = Paths.get("c:/Users/Volodymyr/IdeaProjects/my-project-1/target/classes/static/images/");
